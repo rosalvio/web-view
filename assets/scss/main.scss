@@ -1,0 +1,47 @@
+@import 'variables';
+    
+body, #mainNav {
+        background: linear-gradient(to left, $ending_fade_color, $starting_fade_color);
+}
+
+.viewpage_img {
+    float: left;
+    width: 80vh;
+}
+
+.box {
+    border: 1px dashed #2f6fab;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #dedede;
+    line-height: 1em;
+}
+
+.box-title {
+    color: #800080;
+}
+
+a {
+    display: block;
+    font-weight: bold;
+    color: $link_color;
+    overflow: hidden;
+    max-width: 70vw;
+}
+
+a:active {
+    color: $link_active_color;
+}
+
+a:hover, a:focus {
+    color: $link_hover_color;
+}
+
+.grid-image {
+    max-width: 25vw;
+}
+
+h2 {
+    font-size: calc(1.325rem + 0.9vw) !important;
+    font-weight: bold;
+}

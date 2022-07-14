@@ -1,0 +1,47 @@
+body, #mainNav {
+  background: -webkit-gradient(linear, right top, left top, from(#5A1644), to(#AC2B83));
+  background: linear-gradient(to left, #5A1644, #AC2B83);
+}
+
+.viewpage_img {
+  float: left;
+  width: 80vh;
+}
+
+.box {
+  border: 1px dashed #2f6fab;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #dedede;
+  line-height: 1em;
+}
+
+.box-title {
+  color: #800080;
+}
+
+a {
+  display: block;
+  font-weight: bold;
+  color: #789BDE;
+  overflow: hidden;
+  max-width: 70vw;
+}
+
+a:active {
+  color: #1B386F;
+}
+
+a:hover, a:focus {
+  color: #E2EAF8;
+}
+
+.grid-image {
+  max-width: 25vw;
+}
+
+h2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
