@@ -1,7 +1,7 @@
-- Horario en css grid
-- Estampado más transparente
-- Destacar más las preguntas en el faq
-- Hacer más vistoso el botón a bases de participación
-- Cuadrar las fotos con los párrafos en versión móvil
-- Bases de participación con bordes o darles énfasis con una paleta monocromática
-- Rellenar punto 2.1 de Bases de participación.
+- [X] Horario en css grid
+- [X] Estampado más transparente
+- [X] Destacar más las preguntas en el faq
+- [X] Hacer más vistoso el botón a bases de participación (Falta mejorar)
+- [X] Cuadrar las fotos con los párrafos en versión móvil
+- [X] Bases de participación con bordes o darles énfasis con una paleta monocromática
+- [] Rellenar punto 2.1 de Bases de participación.

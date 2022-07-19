@@ -1,12 +1,31 @@
 @import 'variables';
-    
-body, #mainNav {
-        background: linear-gradient(to left, $ending_fade_color, $starting_fade_color);
+
+body,
+#mainNav {
+    background: linear-gradient(to left, $ending_fade_color, $starting_fade_color);
 }
 
 .viewpage_img {
     float: left;
     width: 80vh;
+}
+
+header::before {
+    content: "";
+    background-image: url("../img/bg-pattern.png") !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: $bg-opacity;
+    pointer-events: none;
+}
+
+.masthead {
+    display: block;
+    overflow: auto;
+    height: auto !important;
 }
 
 .box {
@@ -33,7 +52,8 @@ a:active {
     color: $link_active_color;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: $link_hover_color;
 }
 
@@ -42,6 +62,45 @@ a:hover, a:focus {
 }
 
 h2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: calc(1.8rem + 0.9vw) !important;
     font-weight: bold;
+}
+
+.bases-button {
+    background-color: $button-color;
+    border-radius: .75rem;
+    border: 1px dashed #e2eaf8;
+}
+
+.bases-button a {
+    color: $button-text;
+}
+
+.bases-1, .bases-2, .bases-3, .bases-4 {
+    padding: 0 2rem !important;
+
+}
+
+.bases-1 {
+    background-color: $starting_fade_color;
+}
+
+.bases-2 {
+    background-color: $bases-2;
+}
+
+.bases-3 {
+    background-color: $bases-3;
+}
+
+.bases-4 {
+    background-color: $bases-4;
+}
+
+@media screen and (max-width: 990px){
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
