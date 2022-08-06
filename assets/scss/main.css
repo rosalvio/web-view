@@ -1,7 +1,6 @@
 body,
 #mainNav {
-  background: -webkit-gradient(linear, right top, left top, from(#5A1644), to(#AC2B83));
-  background: linear-gradient(to left, #5A1644, #AC2B83);
+  background: linear-gradient(to left, #5a1644, #ac2b83);
 }
 
 .viewpage_img {
@@ -42,18 +41,18 @@ header::before {
 a {
   display: block;
   font-weight: bold;
-  color: #789BDE;
+  color: #789bde;
   overflow: hidden;
   max-width: 70vw;
 }
 
 a:active {
-  color: #1B386F;
+  color: #1b386f;
 }
 
 a:hover,
 a:focus {
-  color: #E2EAF8;
+  color: #e2eaf8;
 }
 
 .grid-image {
@@ -67,7 +66,7 @@ h2 {
 
 .bases-button {
   background-color: #2b83ac;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   border: 1px dashed #e2eaf8;
 }
 
@@ -75,12 +74,15 @@ h2 {
   color: #83ac2b;
 }
 
-.bases-1, .bases-2, .bases-3, .bases-4 {
+.bases-1,
+.bases-2,
+.bases-3,
+.bases-4 {
   padding: 0 2rem !important;
 }
 
 .bases-1 {
-  background-color: #AC2B83;
+  background-color: #ac2b83;
 }
 
 .bases-2 {
@@ -95,17 +97,58 @@ h2 {
   background-color: #2b83ac;
 }
 
+.horario {
+  display: grid;
+  margin: 3rem 3rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #2b83ff;
+}
+
+.horario > div {
+  border: 1px dotted #fefefe;
+  z-index: 999;
+}
+
+.actividad {
+  text-align: center;
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-rows: 1fr 3fr 2fr;
+}
+
+.activo {
+  background-color: #2b83ac;
+}
+
+.dia {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  text-align: start;
+  justify-self: start;
+}
+
+.nombre-actividad {
+  text-align: center;
+  justify-self: center;
+  margin: auto;
+  font-weight: bold;
+  color: #1b386f;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.hora {
+  margin: auto;
+  margin-top: 0.3rem;
+  text-align: center;
+  color: #1b386f;
+}
+
 @media screen and (max-width: 990px) {
   .center {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
